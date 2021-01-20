@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PAGINA FECHA Y HORA</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/piedepagina.css">
+	<link rel="stylesheet" href="css/masestilos.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:400,300,700">
+
+</head>
+<body>
+
+	<header>
+		<div class="text-center wrapper">
+			<h1>Página Web de Bootstrap</h1>
+		</div>
+	</header>
+
+	<div class="container-fluid">
+		<div class="row">
+
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 center">
+					<img src="img/oceano.jpg" height="450" width="900">
+					<div class="widget">
+						<div class="centrado reloj">		
+							<p id="horas" class="horas"></p>
+							<p>:</p>
+							<p id="minutos" class="minutos"></p>
+							<p>:</p>	
+							<div class="caja-segundos"> 
+								<p id="segundos" class="segundos"></p>
+								<p id="ampm" class="ampm"></p>			
+							</div>
+						</div>
+					</div>	
+			</div>
+								
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 center">
+					<img src="img/sol.jpg" height="450" width="900">
+					<div class="centrado letra">Maribel Rodriguez</div>
+			</div>
+						
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 center">
+					<img src="img/pradera.jpg" height="450" width="900">
+					<div class="widget">
+						<div class="centrado fecha">
+							<p id="dia" class="dia"></p>
+							<p>/</p>
+							<p id="mes" class="mes"></p>
+							<p>/</p> 
+							<p id="year" class="year"></p>	
+						</div>
+					</div>			
+			</div>
+		</div>
+	</div>
+										
+	<footer>
+		<div class="text-center wrapper2 ">
+				<span class="texto_responsive lead" data-desktoptext="Versión para pantallas grandes" data-tablettext="Versión para pantallas medianas"data-phonetext="Versión para pantallas chicas o extra chicas"></span><!--Para pie dinamica según tamaño-->
+		</div>
+	</footer>
+
+	<script src="js/reloj.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
